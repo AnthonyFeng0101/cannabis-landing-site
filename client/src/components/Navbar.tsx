@@ -33,15 +33,14 @@ export default function Navbar() {
         backdropFilter: scrolled ? "blur(8px)" : "none",
       }}
     >
-      <div className="container">
-        <div className="flex items-center justify-between h-14">
+      <div className="flex items-center justify-between px-4" style={{ height: "72px" }}>
           {/* Wordmark */}
           <a
             href="/"
-            className="font-mono-label text-foreground tracking-[0.2em] text-xs uppercase no-underline"
-            style={{ fontFamily: "'DM Mono', monospace", letterSpacing: "0.2em" }}
+            className="flex items-center gap-2 no-underline"
           >
-            Verdant
+            <img src="/logo-icon.png" alt="TerraGreenOak icon" className="w-auto" style={{ height: "36px" }} />
+            <img src="/logo-wordmark.png" alt="TerraGreenOak" className="w-auto" style={{ height: "36px" }} />
           </a>
 
           {/* Desktop Nav */}
@@ -84,7 +83,6 @@ export default function Navbar() {
               style={{ transform: menuOpen ? "rotate(-45deg) translate(3px, -3px)" : "none" }}
             />
           </button>
-        </div>
       </div>
 
       {/* Mobile Menu */}

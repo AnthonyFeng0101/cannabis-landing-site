@@ -14,7 +14,7 @@ const testimonials = [
   },
   {
     quote:
-      "Verdant treats cannabis the way a good wine merchant treats a Burgundy. The provenance matters. The label is honest. The product delivers.",
+      "TerraGreenOak treats cannabis the way a good wine merchant treats a Burgundy. The provenance matters. The label is honest. The product delivers.",
     author: "T. Nakamura",
     detail: "Portland, OR · Customer since 2022",
   },

@@ -29,18 +29,12 @@ export default function Footer() {
         <div className="grid lg:grid-cols-12 gap-12 lg:gap-8">
           {/* Brand column */}
           <div className="lg:col-span-4">
-            <p
-              className="mb-4"
-              style={{
-                fontFamily: "'DM Mono', monospace",
-                fontSize: "0.7rem",
-                letterSpacing: "0.2em",
-                textTransform: "uppercase",
-                color: "oklch(0.984 0.003 90)",
-              }}
-            >
-              Verdant
-            </p>
+            <div className="mb-4">
+            <div className="flex items-center gap-3">
+              <img src="/logo-icon.png" alt="TerraGreenOak icon" className="w-auto brightness-0 invert" style={{ height: "24px" }} />
+              <img src="/logo-wordmark.png" alt="TerraGreenOak" className="w-auto brightness-0 invert" style={{ height: "24px" }} />
+            </div>
+            </div>
             <p
               className="mb-6"
               style={{
@@ -66,10 +60,10 @@ export default function Footer() {
                 color: "rgba(250,250,247,0.3)",
               }}
             >
-              <p>Verdant Cannabis Co.</p>
+              <p>TerraGreenOak Cannabis Co.</p>
               <p>1234 Valencia Street</p>
               <p>San Francisco, CA 94110</p>
-              <p>hello@verdantcannabis.com</p>
+              <p>James@TerraGreenOak.com</p>
             </div>
           </div>
 
@@ -163,7 +157,7 @@ export default function Footer() {
               color: "rgba(250,250,247,0.25)",
             }}
           >
-            © {currentYear} Verdant Cannabis Co. All rights reserved.
+            © {currentYear} TerraGreenOak Cannabis Co. All rights reserved.
           </p>
           <div className="flex gap-6">
             {["Privacy Policy", "Terms of Use", "Accessibility"].map((item) => (

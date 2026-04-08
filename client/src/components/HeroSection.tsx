@@ -81,7 +81,7 @@ export default function HeroSection() {
         {/* Product label block — Le Labo style */}
         <div className="mb-8 space-y-1">
           <p className="label-text" style={{ color: "oklch(0.52 0.012 70)" }}>
-            Verdant Cannabis Co. · San Francisco, CA 94103
+            TerraGreenOak Cannabis Co. · San Francisco, CA 94103
           </p>
           <p className="label-text" style={{ color: "oklch(0.52 0.012 70)" }}>
             Full-spectrum · Small-batch · Third-party tested

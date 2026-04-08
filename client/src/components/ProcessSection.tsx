@@ -42,7 +42,7 @@ export default function ProcessSection() {
       >
         <img
           src="https://d2xsxph8kpxj0f.cloudfront.net/310519663527151709/CkLzZ3MGwrPXR8kw5Y8SUG/product-collection-Kpo3k7amB3XA9FKrhMWwMq.webp"
-          alt="Verdant product collection"
+          alt="TerraGreenOak product collection"
           className="w-full h-full object-cover"
           style={{ objectPosition: "center" }}
         />
